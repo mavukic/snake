@@ -1,26 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
-    padding: 20px;
+    margin-top: 20px;
 }
 
-#game-container {
-    position: relative;
-    margin: auto;
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input[type="color"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
 }
 
 canvas {
-    background-color: #000;
-    border: 2px solid #fff;
-}
-
-h1 {
-    font-size: 36px;
-    color: #333;
-}
-
-#score {
-    font-size: 20px;
-    color: #333;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid black;
 }
